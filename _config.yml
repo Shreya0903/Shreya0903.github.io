@@ -1,49 +1,29 @@
-# -------- Site Basics --------
 title: Shreya Barman
 description: Early-career management graduate | Digital Strategy · Product & Project Management · Business Analysis
 
-# Use GitHub Pages' Cayman theme as a base
+# Use Cayman theme as base
 remote_theme: pages-themes/cayman@v0.2.0
 plugins:
   - jekyll-remote-theme
 
-# -------- Author & Contact --------
+# Author and contact
 author: Shreya Barman
-email: barman.shreya09@gmail.com / shreya09@bu.edu
+email: barman.shreya09@gmail.com or shreya09@bu.edu
 linkedin: https://www.linkedin.com/in/shreya009
-
-# -------- URL Settings --------
-# Your live site URL
 url: https://shreya0903.github.io
-baseurl: ""   # keep empty for a user/organization site
+baseurl: ""   # must stay empty for a user/organization site
 
-# -------- Build Options --------
+# Make sure Markdown and syntax highlighting work
 markdown: kramdown
 highlighter: rouge
-kramdown:
-  input: GFM
 
-# -------- Custom Defaults --------
-# These defaults ensure every page automatically
-# pulls in your custom pastel CSS and JS.
+# Automatically include our pastel CSS & floating-image JS on every page
 defaults:
-  -
-    scope:
-      path: ""
-      type: "pages"
+  - scope:
+      path: ""        # all files
+      type: "pages"   # only pages
     values:
       layout: default
-      # The following lines let you include your extra CSS/JS
-      # across all pages without manually adding them every time.
       head_extra: |
         <link rel="stylesheet" href="/assets/css/custom.css">
         <script defer src="/assets/js/custom.js"></script>
-
-# -------- Optional Meta for SEO --------
-# keywords and description for search previews
-seo:
-  keywords: "Shreya Barman, Digital Strategy, Product Management, Project Management, Business Analyst, Early Career, Portfolio"
-  description: "Portfolio of Shreya Barman – an early-career management graduate passionate about digital strategy, product & project management, and research."
-
-# -------- Future Features --------
-# You can enable Google Analytics, sitemap, etc. later if needed
