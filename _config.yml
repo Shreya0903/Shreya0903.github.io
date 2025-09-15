@@ -1,29 +1,16 @@
 title: Shreya Barman
 description: Early-career management graduate | Digital Strategy · Product & Project Management · Business Analysis
 
-# Use Cayman theme as base
+# Theme
 remote_theme: pages-themes/cayman@v0.2.0
 plugins:
   - jekyll-remote-theme
 
-# Author and contact
 author: Shreya Barman
-email: barman.shreya09@gmail.com or shreya09@bu.edu
+email: barman.shreya09@gmail.com
 linkedin: https://www.linkedin.com/in/shreya009
 url: https://shreya0903.github.io
-baseurl: ""   # must stay empty for a user/organization site
+baseurl: ""
 
-# Make sure Markdown and syntax highlighting work
 markdown: kramdown
 highlighter: rouge
-
-# Automatically include our pastel CSS & floating-image JS on every page
-defaults:
-  - scope:
-      path: ""        # all files
-      type: "pages"   # only pages
-    values:
-      layout: default
-      head_extra: |
-        <link rel="stylesheet" href="/assets/css/custom.css">
-        <script defer src="/assets/js/custom.js"></script>
