@@ -1,11 +1,49 @@
+# -------- Site Basics --------
 title: Shreya Barman
 description: Early-career management graduate | Digital Strategy · Product & Project Management · Business Analysis
 
+# Use GitHub Pages' Cayman theme as a base
 remote_theme: pages-themes/cayman@v0.2.0
 plugins:
   - jekyll-remote-theme
 
-# Optional site metadata
-url: https://shreya0903.github.io
+# -------- Author & Contact --------
+author: Shreya Barman
+email: barman.shreya09@gmail.com / shreya09@bu.edu
 linkedin: https://www.linkedin.com/in/shreya009
-email: barman.shreya09@gmail.com or shreya09@bu.edu
+
+# -------- URL Settings --------
+# Your live site URL
+url: https://shreya0903.github.io
+baseurl: ""   # keep empty for a user/organization site
+
+# -------- Build Options --------
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+
+# -------- Custom Defaults --------
+# These defaults ensure every page automatically
+# pulls in your custom pastel CSS and JS.
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: default
+      # The following lines let you include your extra CSS/JS
+      # across all pages without manually adding them every time.
+      head_extra: |
+        <link rel="stylesheet" href="/assets/css/custom.css">
+        <script defer src="/assets/js/custom.js"></script>
+
+# -------- Optional Meta for SEO --------
+# keywords and description for search previews
+seo:
+  keywords: "Shreya Barman, Digital Strategy, Product Management, Project Management, Business Analyst, Early Career, Portfolio"
+  description: "Portfolio of Shreya Barman – an early-career management graduate passionate about digital strategy, product & project management, and research."
+
+# -------- Future Features --------
+# You can enable Google Analytics, sitemap, etc. later if needed
