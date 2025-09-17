@@ -8,11 +8,11 @@ plugins:
 
 # Show these pages in the menu (we’ll create them next)
 header_pages:
-  - index.md
-  - experience.md
-  - projects.md
-  - research.md
-  - education.md
-  - certifications.md
-  - gallery.md
-  - contact.md
+  1. index.md
+  2. experience.md
+  3. projects.md
+  4. research.md
+  5. education.md
+  6. certifications.md
+  7. gallery.md
+  8. contact.md
