@@ -1,16 +1,1 @@
-title: Shreya Barman
-description: Early Career Management Graduate | Digital Strategy · Product & Project Management · Business Analysis
 
-# Theme
-remote_theme: pages-themes/cayman@v0.2.0
-plugins:
-  - jekyll-remote-theme
-
-author: Shreya Barman
-email: barman.shreya09@gmail.com
-linkedin: https://www.linkedin.com/in/shreya009
-url: https://shreya0903.github.io
-baseurl: ""
-
-markdown: kramdown
-highlighter: rouge
