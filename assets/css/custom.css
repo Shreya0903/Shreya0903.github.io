@@ -1,0 +1,27 @@
+:root{
+  --bg:#F8F7FA; --ink:#222429; --muted:#6b7280; --line:rgba(0,0,0,.08);
+  --lilac:#D8CDF1; --blush:#F6D5D8; --powder:#CFE4F2; --mint:#D6F0E2; --white:#fff;
+}
+html,body{background:var(--bg);color:var(--ink);line-height:1.75;scroll-behavior:smooth}
+.page-header{background:linear-gradient(180deg,#F3EFFB 0%,#FAF7FE 100%)!important;color:var(--ink)!important;border-bottom:1px solid var(--line)!important}
+.main-content h1,.main-content h2,.main-content h3{color:var(--ink)}
+a{color:#1f4bcc}
+hr{border:0;border-top:1px solid var(--line);margin:24px 0}
+
+/* Cards / badges */
+.card{background:var(--white);border:1px solid #ececec;border-radius:16px;padding:18px 20px;box-shadow:0 8px 28px rgba(0,0,0,.05);margin:14px 0}
+.badges{margin:8px 0}
+.badge{display:inline-block;padding:6px 12px;border-radius:999px;background:#eef3ff;color:#2d3a8c;border:1px solid #e2e8ff;margin:6px 6px 0 0;font-size:.9rem}
+
+/* Swipe layout */
+.swipe-wrap{display:flex;gap:24px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:8px}
+.swipe{min-width:100%;scroll-snap-align:start}
+@media (min-width: 900px){.swipe{min-width:80%}}
+
+/* Soft section accents */
+.section{border-left:6px solid var(--lilac);padding-left:14px;margin:18px 0}
+.soft{background:linear-gradient(180deg,var(--powder),var(--blush));-webkit-background-clip:text;background-clip:text;color:transparent}
+
+/* Reveal on scroll */
+.reveal{opacity:0;transform:translateY(10px);transition:opacity .5s ease, transform .5s ease}
+.reveal.visible{opacity:1;transform:none}
